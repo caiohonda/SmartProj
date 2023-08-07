@@ -1,8 +1,10 @@
 const cucumber = require("cypress-cucumber-preprocessor").default;
 const cucumberHtmlReport = require("cypress-cucumber-html-reporter");
+const installAndroidCommands = require('cypress-android-commands');
 
 module.exports = (on, config) => {
   on("file:preprocessor", cucumber());
+  installAndroidCommands(on);
 
   on("task", {
     log(message) {

@@ -1,8 +1,10 @@
+npx cypress open
+
 1. PROJETO (WebService/API)
     Create an automation project using a public API
     http://dummy.restapiexample.com/ using BDD with the scenarios:
     - Create an employee.
-    - Validate if the employee was created correctly.
+    - Validate if the inserted employee was created correctly.
     - Delete this user.
     Required: Always validate the Status Code and the displayed message.
     Desirable: Generate a report of the tests performed.
