@@ -1,0 +1,30 @@
+1. PROJETO (WebService/API)
+    Create an automation project using a public API
+    http://dummy.restapiexample.com/ using BDD with the scenarios:
+    - Create an employee.
+    - Validate if the employee was created correctly.
+    - Delete this user.
+    Required: Always validate the Status Code and the displayed message.
+    Desirable: Generate a report of the tests performed.
+
+2. PROJECT (Website)
+    Create an automation project using the website (https://www.saucedemo.com/ , https://courses.ultimateqa.com/users/sign_in)
+    http://automationpractice.com/index.php register and also contains the following scenarios (in BDD):
+    - Login Success (if using the registration login, it will be a differential/plus).
+    - Invalid login.
+    - Blank Login.
+    Required: Use page objects pattern.
+    Desirable: Generate test report.
+
+3. PROJECT (Android Mobile App)
+    Create an automation project using any of the following APKs:
+    https://drive.google.com/open?id=12URcclJ5RmyLE_k5KSsbdbD96r_EyA07
+    This project must contain at least different scenarios 3.
+    Required: Use Page Objects pattern.
+    Desirable: Generate a report of the tests performed.
+
+4. EXTRA/ BONUS PROJECT (ContinuousIntegration)
+    This challenge is an extra request, if you can create and run it, it will be a bonusat the time of analysis .
+    Create a continuous integration pipeline using the projects created in this challenge.
+    Requirement Track execution schedule.
+    Desirable: Execution Report.
